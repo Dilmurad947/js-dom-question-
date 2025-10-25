@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .image{
+           
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: #00bcff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+           height: fit-content;
+           transition:
+                background-color 0.3s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            
+        }
+        #container{
+            flex-wrap: wrap;
+            align-items: center;
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            margin-top: 30px;
+            height: 100px;
+        }
+        #box{
+            flex-wrap: wrap;
+            align-items: center;
+            display: flex;
+            border: 1px solid rgb(238, 20, 20);
+            justify-content: center;
+            margin-top: 30px;
+            width: 200px;
+            height: 100px;
+        }
+
+        button:hover {
+            background-color: #009cd4;
+            transform: translateY(3px) scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>hello Dom </h1>
+ 
+   
+
+
+<!-- ////////////////////////////// -->
+         <!-- 1 -->
+     <!-- 
+        <input type="text" id="message" onclick="testing()" placeholder="peragraph message" value="">
+    <button id="btn" onclick="testingbtn()">submit</button>s
+     -->
+        <!-- ////////////////////////////////////////// -->
+        <!--   2  -->
+         <!--   <div id="container"  >
+        <button onclick="changeColor('red')"> red</button>
+        <button onclick="changeColor('brown')">brown</button>
+        <button onclick="changeColor('green')">green</button>
+        <button onclick="changeColor('lightblue')">lighhtblue</button>
+    </div>     -->
+    <!-- //////////////////////////////// -->
+            <!--   3 -->
+        
+           <!-- <input type="text" id="nameinput" onclick="testing()">
+    <div  id="container">     
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deserunt ea voluptate
+            <button id="inputbtn" onclick="testing()">result</button>  
+    </div>     -->
+    <!-- ///////////////////// -->
+              <!-- 4 -->
+            <!-- 
+             <div class="container" id="container"> 
+         <h1 id="maintitle" onclick="changeColor('red')" > hello title</h1>
+    </div>       -->
+    <!-- ///////////////////////////////// -->
+                <!-- 5 -->
+        <!--        <input type="number" id="num1" onclick="outputtesting()" placeholder="write a number">
+    <div id="container"> 
+        <h1>hello world</h1>
+        <button id="outputbtn" onclick="outputtesting()">output</button>
+    </div>
+            <div >
+            <p id="output" onclick="outputtesting()"></p>
+             </div>        -->
+             <!-- /////////////////////////////////// -->
+             <!-- 6  -->
+            <!-- <button id="submit_btn" onclick="submit_btn() "> submit Btn </button> -->
+             <!-- //////////////////////////////////////// -->
+              <!-- 7 -->
+             <!-- <div id="container">
+            <input type="text" id="input-1" onclick="addingfunction()" placeholder="first name">
+            <input type="text" id="input-2" onclick="addingfunction()" placeholder="last name">
+            <button id="adding-btn" onclick="addingfunction()">adding btn</button>
+             </div>
+             <p id="adding-output" onclick="addingfunction()"></p> -->
+             <!-- ////////////////////////////////////////////// -->
+               <!--  8  -->
+            <!-- <div id="container">
+            <input type="text" id="description" onclick="clearScreen()" placeholder="description">
+            <button id="result"  onclick="clearScreen()" >Update</button>
+             </div> -->
+             <!-- /////////////////////////////////// -->
+                      <!-- 9 -->
+                      <!-- 
+           <div id="box">
+            <button onclick="changeColor('teal')">teal</button>
+           </div> -->
+            <!--   ////////////////////////////////////   -->
+                <!--   10   -->
+            <!-- <input type="email" name="" onclick="email()" placeholder="emter your email:" id="email">
+            <button id="email-btn" onclick="email()">submit</button> -->
+           <!-- ////////////////////////////////////////// -->
+            <!--   12  -->
+            <!-- <input type="text" onclick="nametesting()" placeholder="first name" id="inputname">
+            <button id="inputnamebtn" onclick="nametesting()">Input</button>
+            <div class="greeting" id="container" onclick="nametesting()"> </div> -->
+            <!--  /////////////////////////////////////////// -->
+              <!-- 15 -->
+            <!-- <div id="container">
+                <h4>agree 
+                     <input type="checkbox" id="check1"  onclick="check()" >
+                </h4>
+               <h4>
+                dis agree
+                <input type="checkbox" id="check2" onclick="check2()" >
+               </h4>
+               <p onclick="check()" onclick="check2()" id="checkpera"></p>
+            </div> -->
+            <!-- /////////////////////////////////////////////////////////// -->
+                  <!--     11  -->
+            <!-- <p id="fontpera" onclick="fontpera()">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                At nostrum autem repellat modi ipsa temporibus exercitationem 
+                aliquam voluptatibus corporis rem error dolor,
+                 alias, asperiores dolore earum officiis quo est nulla.
+              </p> -->
+              <!-- /////////////////////////////////////////////////// -->
+               <!--     13 -->
+                <!-- <img src="https://img.utdstc.com/screen/f20/526/f20526ff00ed1a7ffc09596113d1235b4be5091bba8e4eee604e04d1f5a7bc28:600" alt="" id="image" onclick="testingpic()">  
+               -->
+                <!-- /////////////////////////////////////////////////////// -->
+                    <!--    14  -->
+              <!-- <div id="container">
+                <h1 onclick="testinghead()" id="heading">hello world</h1>
+                <h2>hello world</h2>
+              </div> -->
+              <!-- /////////////////////////////////////// -->
+               <!--  19   -->
+                  <!-- <div id="container">
+                  <input type="number" id="userage" onclick="testingage()" placeholder="age">
+                   <button id="useragebtn" onclick="testingage()">submit</button>
+                    </div> -->
+               <!-- //////////////////////////////////////// -->
+               <!-- 18 -->
+                 <!-- <div id="container">
+                <h1 onclick="testing()" id="headingh1">hello world</h1>
+                 <button onclick="testing()" id="btn1"> Button</button>
+                </div> -->
+              <!-- //////////////////////////// -->
+               <!-- 20 -->  
+                     <!-- <div id="container" > 
+                       <h5>clear testing</h5>
+                  <input type="text"  id="clearinput" onclick="testingclear()" placeholder="white scale solid">
+                   <button id="clearbtn" onclick="testingclear()">clear </button>    
+                      </div> -->
+               <!-- /////////////////////////// -->
+             <!-- <h2>hello Time </h2>
+              <p id="datetime " > </p>
+              <button id="timebtn">time</button>  
+
+              <script>
+                 
+        const btn = document.getElementById("timebtn") 
+         const dateTimeParagraph = getElementById('datetime')
+            console.log("clicked")  
+            btn.addEventListener  ('click' , () => {
+                const now = new Date ( ) ;
+                dateTimeParagraph.textContent = now.toString ()
+            }) 
+         </script>  -->
+    <!-- ////////////////////////////////////////////// --> 
+   <!-- <h2>Show Current Date and Time</h2>  -->
+  
+    <!-- Paragraph to display the date and time -->
+   <!-- <p id="datetime"></p> 
+  
+    <!- Button that triggers the display  -->
+    <!-- <button id="showTimeBtn">Show Date and Time</button>
+    <script>
+     const btn = document.querySelector("#showTimeBtn")
+     const dateTimeParagraph = document.getElementById('datetime')
+    
+     btn.addEventListener ('click' , () =>{
+     const now = new Date ( ) ;
+     dateTimeParagraph.textContent = now.toString ()
+         } )
+   </script>  --> 
+
+<!-- //   <script> 
+  
+    const button = document.getElementById('showTimeBtn');
+    const dateTim = document.getElementById('datetime');
+
+    button.addEventListener('click', () => {
+      const now = new Date( );
+      dateTimeParagraph.textContent = now.toString();
+    });
+//   </script> -->
+
+
+
+
+               <!-- //////////////////////////// -->
+
+  <!-- <script>
+    // Select all elements with the class 'highlight'
+    const highlights = document.querySelectorAll('.highlight');
+
+    // Loop through each element and change its text color to orange
+    highlights.forEach(element => {
+      element.style.color = 'orange';
+    });
+  </script> -->
+
+        <script  src="./app.js"></script>
+</body>
+
+</html>
+
+
